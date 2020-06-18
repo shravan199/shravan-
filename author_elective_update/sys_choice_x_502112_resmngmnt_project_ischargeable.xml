@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="ischargeable" table="x_502112_resmngmnt_project" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ischargeable</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_502112_resmngmnt_project</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-17 09:19:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1bfca6c8db2590109b34f7af2996195a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-17 09:19:35</sys_updated_on>
+            <value>yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ischargeable</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_502112_resmngmnt_project</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-17 09:19:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1ffca6c8db2590109b34f7af2996195b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-17 09:19:35</sys_updated_on>
+            <value>no</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>ischargeable</element>
+            <name>x_502112_resmngmnt_project</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-17 09:19:35</sys_created_on>
+            <sys_id>53fca6c8db2590109b34f7af2996195b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>ischargeable</sys_name>
+            <sys_package display_value="Resource Management" source="x_502112_resmngmnt">28f97d0cdb6190109b34f7af29961970</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Resource Management">28f97d0cdb6190109b34f7af29961970</sys_scope>
+            <sys_update_name>sys_choice_x_502112_resmngmnt_project_ischargeable</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-17 09:19:35</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

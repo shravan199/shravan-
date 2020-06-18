@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="ResourceProjectMap" max_length="40" name="x_502112_resmngmnt_resourceprojectmap" type="collection">
+        <element label="Allocation %" mandatory="true" max_length="20" name="allocation" type="decimal"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="encode_utf8=false" label="Project Name" mandatory="true" max_length="32" name="u_project_name" reference="x_502112_resmngmnt_project" type="reference"/>
+        <element attributes="encode_utf8=false" label="Resource Name" mandatory="true" max_length="32" name="u_resource_name" reference="x_502112_resmngmnt_resource" type="reference"/>
+        <index name="index">
+            <element name="u_project_name"/>
+        </index>
+        <index name="index2">
+            <element name="u_resource_name"/>
+        </index>
+    </element>
+</database>

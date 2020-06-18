@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Resource" max_length="40" name="x_502112_resmngmnt_resource" type="collection">
+        <element label="Current Address" max_length="300" name="current_address" type="string"/>
+        <element label="Email ID" mandatory="true" max_length="100" name="email_id" type="string"/>
+        <element label="Experience ( In months)" mandatory="true" max_length="40" name="experience_in_months" type="integer"/>
+        <element label="Mobile Number" mandatory="true" max_length="10" name="mobile_number" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Permanent Address" max_length="300" name="permanent_address" type="string"/>
+        <element display="true" label="Resource Name" mandatory="true" max_length="100" name="resource_name" type="string"/>
+        <element label="Skills" mandatory="true" max_length="300" name="skills" type="string"/>
+    </element>
+</database>

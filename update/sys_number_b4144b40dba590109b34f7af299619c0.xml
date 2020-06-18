@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_502112_resmngmnt_resourceprojectmap">x_502112_resmngmnt_resourceprojectmap</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>RPM</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-17 11:00:27</sys_created_on>
+        <sys_id>b4144b40dba590109b34f7af299619c0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>RPM</sys_name>
+        <sys_package display_value="Resource Management" source="x_502112_resmngmnt">28f97d0cdb6190109b34f7af29961970</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resource Management">28f97d0cdb6190109b34f7af29961970</sys_scope>
+        <sys_update_name>sys_number_b4144b40dba590109b34f7af299619c0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-17 13:45:36</sys_updated_on>
+    </sys_number>
+</record_update>

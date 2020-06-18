@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Application" max_length="40" name="x_502112_resmngmnt_application" type="collection">
+        <element label="Application Description" mandatory="true" max_length="300" name="application_description" type="string"/>
+        <element label="Application Name" mandatory="true" max_length="100" name="application_name" type="string"/>
+        <element label="Application Portfolio Name" mandatory="true" max_length="100" name="application_portfolio_name" type="string"/>
+        <element label="Application Short Name" mandatory="true" max_length="100" name="application_short_name" type="string"/>
+        <element label="App Owner" mandatory="true" max_length="100" name="app_owner" type="string"/>
+        <element label="KGS Associate  Director" mandatory="true" max_length="100" name="kgs_associate_director" type="string"/>
+        <element label="KGS Director" mandatory="true" max_length="100" name="kgs_director" type="string"/>
+        <element label="KGS Project Manager Lead" mandatory="true" max_length="100" name="kgs_project_manager_lead" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Portfolio Lead" mandatory="true" max_length="60" name="portfolio_lead" type="string"/>
+        <element label="Tower Lead" mandatory="true" max_length="100" name="tower_lead" type="string"/>
+        <element label="Tower Name" mandatory="true" max_length="50" name="tower_name" type="string"/>
+    </element>
+</database>

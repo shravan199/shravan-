@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <role display_value="x_502112_resmngmnt.resource_management_manager" name="x_502112_resmngmnt.resource_management_manager">dd5a7dc4db6190109b34f7af2996199f</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-17 05:38:15</sys_created_on>
+        <sys_id>d95a7dc4db6190109b34f7af299619a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>dd5a7dc4db6190109b34f7af2996199f</sys_name>
+        <sys_package display_value="Resource Management" source="x_502112_resmngmnt">28f97d0cdb6190109b34f7af29961970</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Resource Management">28f97d0cdb6190109b34f7af29961970</sys_scope>
+        <sys_update_name>sys_embedded_help_role_d95a7dc4db6190109b34f7af299619a4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-17 05:38:15</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

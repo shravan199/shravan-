@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="ischargeable" label="IsChargeable" language="en" table="x_502112_resmngmnt_project">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>ischargeable</element>
+            <help/>
+            <hint/>
+            <label>IsChargeable</label>
+            <language>en</language>
+            <name>x_502112_resmngmnt_project</name>
+            <plural>IsChargeables</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-17 07:38:11</sys_created_on>
+            <sys_id>c2c51e84dbe190109b34f7af29961910</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>IsChargeable</sys_name>
+            <sys_package display_value="Resource Management" source="x_502112_resmngmnt">28f97d0cdb6190109b34f7af29961970</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Resource Management">28f97d0cdb6190109b34f7af29961970</sys_scope>
+            <sys_update_name>sys_documentation_x_502112_resmngmnt_project_ischargeable_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-17 07:38:11</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

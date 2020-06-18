@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Project" max_length="40" name="x_502112_resmngmnt_project" type="collection">
+        <element label="ApplicationID" mandatory="true" max_length="32" name="applicationid" reference="x_502112_resmngmnt_application" type="reference"/>
+        <element choice="3" default="yes" label="IsApproved" mandatory="true" max_length="40" name="isapproved" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element choice="3" default="yes" label="IsChargeable" mandatory="true" max_length="40" name="ischargeable" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element choice="3" default="yes" label="IsRecoverable" mandatory="true" max_length="40" name="isrecoverable" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Project End Date" mandatory="true" max_length="40" name="project_end_date" type="glide_date"/>
+        <element display="true" label="Project Name" mandatory="true" max_length="200" name="project_name" type="string"/>
+        <element label="Project Start Date" mandatory="true" max_length="40" name="project_start_date" type="glide_date"/>
+        <element label="Resource Forecast" mandatory="true" max_length="40" name="resource_forecast" type="integer"/>
+        <index name="index">
+            <element name="applicationid"/>
+        </index>
+    </element>
+</database>
